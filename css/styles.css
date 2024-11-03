@@ -57,9 +57,22 @@ color: #434455;
 /* head */
 
 /* main */
+.first-subject{
+    line-height: 1.07
+}
 
 .button{
     cursor: pointer;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.button:hover,
+.button:focus{
+    background-color: #404BBF;
 }
 
 .first-content{
@@ -75,14 +88,46 @@ text-align: center;
 color: #fff;
 }
 
-.second-content-text{
+.second-content-titles,
+.third-list-titles,
+.portfolio-titles{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+}
+
+.second-content-text,
+.third-list-text,
+.portfolio-text{
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .third-content{
-    background-color: #f4f4fd;
+    background-color: #F4F4FD;
 }
+
+.third-subject,
+.fourth-subject{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.third-list-items{
+    background-color: #FFFFFF;
+}
+
+
+
+
 
 /* footer */
 
@@ -91,4 +136,10 @@ footer{
 }
 .footer-logo .logo-part{
     color: #f4f4fd;
+}
+
+.logo-text{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
